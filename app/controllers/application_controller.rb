@@ -22,5 +22,10 @@ class ApplicationController < Sinatra::Base
     @content = params[:content]
     Post.create(@name, @content)
   end
+    # @name = params[:name]
+    # @content = params[:content]
+    # Post.create(@name, @content)
+
+  
 
 end
