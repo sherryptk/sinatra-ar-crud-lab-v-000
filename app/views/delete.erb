@@ -1,1 +1,2 @@
-<h1>Post has been deleted.</h1>
+<% post = Post.all.find(@post) %>
+  <h1> <%= post.name %> was deleted</h1>
